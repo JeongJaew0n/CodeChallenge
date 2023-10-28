@@ -3,7 +3,7 @@ package programmers.lv2;
 import java.util.Arrays;
 import java.util.stream.Collector;
 
-public class MaxMin12939 {
+public class MaxMin_12939 {
     public String solution(String s) {
 
         int[] number = Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).toArray();
