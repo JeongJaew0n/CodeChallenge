@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 양궁대회
  */
 
-
+// fuck.
 public class ArcheryCompetition_92342 {
 
     public static void main(String[] args) {
