@@ -1,6 +1,9 @@
 package programmers.lv2;
 
+import java.util.*;
+
 public class Light {
+
     public int[] solution(String[] grid) {
         int[] answer = {};
 
@@ -19,9 +22,10 @@ public class Light {
          */
         int y = grid.length;
         int x = grid[0].length();
-        int[][] visited = new int[y][x];
 
-        
+        HashSet hashSet = new HashSet();
+
+
 
         return answer;
     }
