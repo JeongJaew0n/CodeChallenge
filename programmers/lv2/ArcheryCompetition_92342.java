@@ -1,5 +1,7 @@
 package programmers.lv2;
 
+import java.util.HashSet;
+
 /**
  * 2022 카카오 문제
  * 양궁대회
@@ -15,10 +17,8 @@ public class ArcheryCompetition_92342 {
     public static void main(String[] args) {
         solution(5,new int[]{2,1,1,1,0,0,0,0,0,0,0});
     }
+
     private static int[] solution(int n, int[] info) {
-
-        apeachInfo = info;
-
         search(n, new int[11]);
 
         if(bestGap != -1) {
@@ -65,7 +65,7 @@ public class ArcheryCompetition_92342 {
         }
 
         int gap = ryanScore-apeachScore;
-        if(gap > bestGap) {
+        if(gap >= bestGap) {
             bestGap = gap;
             answer = info.clone();
         }
