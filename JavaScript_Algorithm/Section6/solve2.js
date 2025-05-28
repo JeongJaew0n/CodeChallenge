@@ -1,3 +1,4 @@
+// 다중 포인터 문제
 function solve(array) {
     let left = 0;
     let right = 1;
