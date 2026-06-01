@@ -1,2 +1,2 @@
 # CodeChallenge
-AlgogogogogogogogogogogogogoGoGogogogogogogogogorithm, coding test
+coding test
